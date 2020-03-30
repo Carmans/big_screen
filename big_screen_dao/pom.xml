@@ -13,6 +13,7 @@
     <description>数据访问层</description>
 
     <dependencies>
+        <!-- mybaits分页助手 -->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
@@ -42,6 +43,17 @@
             <artifactId>druid</artifactId>
         </dependency>
 
+        <!-- 通用 Mapper -->
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
+        </dependency>
+
+        <!-- 日志 -->
+     <!--   <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>-->
     </dependencies>
 
 </project>
